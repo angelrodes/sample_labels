@@ -15,7 +15,7 @@ But the header of the file can be easily changed to fit any other label distribu
 ## How to use
 
 1. Copy your sample list to ```sample_list.txt``` and modify ```groups_list.txt``` to fit the set of labels you need.
-Each line will be a sample name or process. The lines will be interpreted in LaTeX, so avoid using symbols like ```_```, ```\```, or ```$``` unless you **want** them to be intepreted.
+Each line will be a sample name or process. The lines will be interpreted in LaTeX, so avoid using symbols like ```_```, ```\```, or ```$``` unless you **want** them to be intepreted. Blank lines also count: if you leave a final line blank in ```sample_list.txt``` you will get an extra *sample* in the PDF file.
 2. Run the ```.tex``` file in LaTeX. (e.g. ```pdflatex labels_5x16.tex```)
 3. Print the generated PDF file. **At the printer dialog: select "no scaling" and/or "ignore margins" for the PDF to fit your labels!**
 
