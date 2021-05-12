@@ -1,0 +1,12 @@
+Dissolution
+Evaporation
+Diss. residue
+Al aliquot
+AX Ti-Be-Al
+SO4 residue
+CX Ti frac.
+CX Be frac.
+CX Al frac.
+BeO
+Al(OH)$_2$
+Al$_2$O$_3$
