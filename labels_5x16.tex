@@ -10,6 +10,7 @@
 \newcommand{\yspacing}{17.1} %mm
 \newcommand{\labelmargin}{2} %mm from the top and the left of the label limit
 \newcommand{\linespacing}{4.25} %mm
+\newcommand{\firstlabelnumber}{1} % first sample number
 
 % packages
 \usepackage[overlay,absolute]{textpos}
@@ -100,8 +101,10 @@
 	\pgfmathsetmacro{\xplace}{\xcorner+\xspacing*(\thecol-1)+\labelmargin}
 	\pgfmathsetmacro{\yplace}{\ycorner+\yspacing*(\therow-1)+\labelmargin}
 	\PlaceText{\xplace mm}{\yplace mm}{
-		\textbf{\thesample)} 
-		\texttt{\samplearray{\thesample}}
+	\pgfmathsetmacro{\thissamplenumber}{int(\firstlabelnumber+\thesample-1)} 
+%	\textbf{\thesample)}
+	\textbf{\thissamplenumber)}
+	\texttt{\samplearray{\thesample}}
 	} 
 	
 	% second line
