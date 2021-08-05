@@ -2,7 +2,8 @@ Dissolution
 Evaporation
 Diss. residue
 Al aliquot
-AX Ti-Be-Al
+\textsubscript{AX Ti-Be-Al/Be suprnt.}
+SO4 conversion
 SO4 residue
 CX Ti frac.
 CX Be frac.
