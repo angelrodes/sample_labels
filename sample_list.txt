@@ -1,6 +1,6 @@
-Sample-01
-Sample-02
-Sample-03
-Sample-04
-Sample-05
-My blank
+Sample-01\textsubscript{(20g)}
+Sample-04\textsubscript{(20g)}
+Sample-05\textsubscript{(19g)}\textsuperscript{+1.5}
+Sample-07\textsubscript{(20g)}
+Sample-09\textsubscript{(20g)}\textsuperscript{+1.3}
+My blank\textsubscript{(0g)}\textsuperscript{+2}
